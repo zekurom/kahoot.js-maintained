@@ -36,7 +36,7 @@ module.exports = function(){
           get questionCount(){return (this.quizQuestionAnswers && this.quizQuestionAnswers.length) || 10;}
         };
       }
-      this.quiz.quizQuestionAnswers = recover.defaultQuizData.quizQuestionAnswers;
+      this.quiz.quizQuestionAnswers = console.log();/*recover.defaultQuizData.quizQuestionAnswers;*/
       const data = recover.data;
       switch (recover.state) {
       case 0:{
